@@ -38,3 +38,14 @@ a:hover {
     border-radius: 7px;
     padding: 12px;
 }
+
+.footer {
+    background: #0C134F;
+    color: #D4ADFC;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

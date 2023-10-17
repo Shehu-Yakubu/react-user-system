@@ -14,11 +14,8 @@ const DeleteUser = () => {
         evt.preventDefault()
 
         const response = await api.delete(`users/${state.id}`)
-        console.log(response)
+        // console.log(response)
         console.log(response.data)
-
-        // .then( (response) => {
-        // })
     }
 
     return (

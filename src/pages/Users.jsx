@@ -7,19 +7,19 @@ const Users = () => {
     useEffect( () => {
         axios.get('https://jsonplaceholder.typicode.com/users')
         .then( (data) => {
-            console.log(data)
+            // console.log(data)
             setPost(data?.data)
         })
     }, [])
 
     return (
         <>
-            Users
+            <h3>Users</h3>
             {post.map( (item, i) => {
                 return (
-                <div key={i}>
-                    <p>{item?.name}</p>
-                </div>
+                    <div key={i}>
+                        <p>{item?.name}</p>
+                    </div>
                 )
             })}
         </>

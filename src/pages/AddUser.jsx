@@ -19,7 +19,7 @@ const AddUser = () => {
 
         axios.put(`https://jsonplaceholder.typicode.com/users`, { name })
         .then( (res) => {
-            console.log(res)
+            // console.log(res)
             console.log(res.data)
         })
     }

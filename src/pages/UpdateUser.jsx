@@ -18,12 +18,12 @@ const UpdateUser = () => {
 
     const submitForm = (e) => {
         e.preventDefault()
-        console.log(e)
+        // console.log(e)
         console.log(state)
 
         axios.put(`https://jsonplaceholder.typicode.com/users/1`, { state })
         .then( (res) => {
-            console.log(res)
+            // console.log(res)
             console.log(res.data)
         })
     }

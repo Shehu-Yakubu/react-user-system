@@ -6,6 +6,7 @@ import AddUser from './pages/AddUser'
 import UpdateUser from './pages/UpdateUser'
 import DeleteUser from './pages/DeleteUser'
 import ErrorHandling from './pages/ErrorHandling'
+import Footer from './components/Footer'
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/delete' element={<DeleteUser />} />
           <Route path='*' element={<ErrorHandling />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
