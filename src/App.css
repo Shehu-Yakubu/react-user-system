@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #0C134F;
+    padding: 10px;
+    margin: 0 0 6px 0;
+}
+
+.nav--list {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: #D4ADFC;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    background: #D4ADFC;
+    color: #0C134F;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 7px;
+    padding: 12px;
+}
