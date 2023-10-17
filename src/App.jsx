@@ -10,49 +10,8 @@ import ErrorHandling from './pages/ErrorHandling'
 import './App.css'
 
 function App() {
-  // const [data, setData] = useState(null)
-  // const [error, setError] = useState(null)
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch('https://api.example.com/data', {
-  //         headers: {
-  //           Authorization: 'Token' // Bearer token goes here
-  //         }
-  //       })
-
-  //       if (!response.ok) {
-  //         throw new Error('API Request Failed')
-  //       }
-
-  //       const jsonData = await response.json()
-  //       setData(jsonData)
-  //     } catch (error) {
-  //       setError(error.message)
-  //     }
-  //   }
-  //   fetchData()
-  // }, [])
-
   return (
     <>
-      {/* <h1>Shehu GitHub Repos</h1>
-      {error ? (
-        <p>Error: {error}</p>
-      ) : data ? (
-        <ul>
-          { data.map( item => (
-              <li key={item.id}>
-                {item.name}
-              </li>
-            ))
-          }
-        </ul>
-      ) : (
-        <p>Loading data...</p>
-      )} */}
-      {/* <Users /> */}
       <BrowserRouter>
         <Navbar />
         <Routes>
