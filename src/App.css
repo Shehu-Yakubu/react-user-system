@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -39,6 +43,32 @@ a:hover {
     padding: 12px;
 }
 
+button {
+    width: 100px;
+    padding: 7px;
+    margin: 5px;
+    background: #0C134F;
+    color: #D4ADFC;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #D4ADFC;
+    color: #0C134F;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input {
+    width: 300px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.post, .users--header {
+    margin: 8px;
+}
+
 .footer {
     background: #0C134F;
     color: #D4ADFC;
@@ -48,4 +78,5 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10vh;
 }

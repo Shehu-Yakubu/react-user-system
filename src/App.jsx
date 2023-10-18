@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={<UserApp />} />
+          <Route path='/' element={<Users />} />
           <Route path='/users' element={<Users />} />
           <Route path='/add' element={<AddUser />} />
           <Route path='/update' element={<UpdateUser />} />
